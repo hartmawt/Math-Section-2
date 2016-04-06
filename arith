@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+var opp =  process.argv[2],
+      x = +process.argv[3],
+      y = +process.argv[4];
+      math = require('./math');
+
+console.log(math[opp](x, y));
